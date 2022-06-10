@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>使用vue+ElementUI实现表格增删改查</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/使用vue_elementui实现表格增删改查/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/使用vue_elementui实现表格增删改查/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- tran (矩形) -->
+      <div id="u309" class="ax_default box_1" data-label="tran">
+        <div id="u309_div" class=""></div>
+        <div id="u309_text" class="text ">
+          <p><span>tran</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u310" class="ax_default">
+        <div id="u310_state0" class="panel_state" data-label="State1" style="">
+          <div id="u310_state0_content" class="panel_state_content">
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (head) -->
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u312" class="ax_default">
+        <div id="u312_state0" class="panel_state" data-label="State1" style="">
+          <div id="u312_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u313" class="ax_default" data-left="32" data-top="3" data-width="199" data-height="46">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u314" class="ax_default paragraph">
+                <div id="u314_div" class=""></div>
+                <div id="u314_text" class="text ">
+                  <p><span>Axure成长日记：axureinfo.top</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (组合) -->
+              <div id="u315" class="ax_default" data-left="32" data-top="3" data-width="140" data-height="34">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u316" class="ax_default label">
+                  <div id="u316_div" class=""></div>
+                  <div id="u316_text" class="text ">
+                    <p><span>A</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u317" class="ax_default paragraph">
+                  <div id="u317_div" class=""></div>
+                  <div id="u317_text" class="text ">
+                    <p><span>xure</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u318" class="ax_default label">
+                  <div id="u318_div" class=""></div>
+                  <div id="u318_text" class="text ">
+                    <p><span>I</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (矩形) -->
+                <div id="u319" class="ax_default paragraph">
+                  <div id="u319_div" class=""></div>
+                  <div id="u319_text" class="text ">
+                    <p><span>nfo</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- home (矩形) -->
+            <div id="u320" class="ax_default box_1" data-label="home" selectiongroup="u311tta">
+              <img id="u320_img" class="img " src="images/index/home_u11.svg"/>
+              <div id="u320_text" class="text ">
+                <p><span>文章</span></p>
+              </div>
+            </div>
+
+            <!-- res (矩形) -->
+            <div id="u321" class="ax_default box_1" data-label="res" selectiongroup="u311tta">
+              <img id="u321_img" class="img " src="images/index/home_u11.svg"/>
+              <div id="u321_text" class="text ">
+                <p><span>资源</span></p>
+              </div>
+            </div>
+
+            <!-- about (矩形) -->
+            <div id="u322" class="ax_default box_1" data-label="about" selectiongroup="u311tta">
+              <img id="u322_img" class="img " src="images/index/home_u11.svg"/>
+              <div id="u322_text" class="text ">
+                <p><span>关于</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="u311" style="display:none; visibility:hidden;"></div>
+
+      <!-- col1 (矩形) -->
+      <div id="u323" class="ax_default box_1" data-label="col1">
+        <img id="u323_img" class="img " src="images/使用中继器实现elementui风格表格增删改查/col1_u278.svg"/>
+        <div id="u323_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u324" class="ax_default paragraph">
+        <div id="u324_div" class=""></div>
+        <div id="u324_text" class="text ">
+          <p><span>使用vue+ElementUI实现表格增删改查、分页功能，因为查询没接口，暂未实现。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u325" class="ax_default paragraph">
+        <div id="u325_div" class=""></div>
+        <div id="u325_text" class="text ">
+          <p><span>使用vue+ElementUI实现表格增删改查</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u326" class="ax_default" data-left="1137" data-top="88" data-width="14" data-height="14">
+
+        <!-- Unnamed (形状) -->
+        <div id="u327" class="ax_default _形状">
+          <img id="u327_img" class="img " src="images/部分作品集/u166.svg"/>
+          <div id="u327_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u328" class="ax_default _形状">
+          <img id="u328_img" class="img " src="images/部分作品集/u167.svg"/>
+          <div id="u328_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- date (矩形) -->
+      <div id="u329" class="ax_default paragraph" data-label="date">
+        <div id="u329_div" class=""></div>
+        <div id="u329_text" class="text ">
+          <p><span>2022-04-10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (footer) -->
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u331" class="ax_default">
+        <div id="u331_state0" class="panel_state" data-label="State1" style="">
+          <div id="u331_state0_content" class="panel_state_content">
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u332" class="ax_default" data-left="419" data-top="1105" data-width="450" data-height="28">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u333" class="ax_default paragraph">
+          <div id="u333_div" class=""></div>
+          <div id="u333_text" class="text ">
+            <p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial', sans-serif;font-weight:400;font-size:14px;color:#D7D7D7;">Copyright © axureinfo.top, All Rights Reserved |&nbsp; &nbsp; &nbsp; </span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;color:#CCCCCC;"> </span><a id="u334" class="link"><span style="font-family:'微软雅黑', sans-serif;font-weight:400;color:#02A7F0;">342331681</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u335" class="ax_default _形状">
+          <img id="u335_img" class="img " src="images/index/u19.svg"/>
+          <div id="u335_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u336" class="ax_default _形状">
+          <img id="u336_img" class="img " src="images/index/u20.svg"/>
+          <div id="u336_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- sd (图片 ) -->
+        <div id="u337" class="ax_default image ax_default_hidden" data-label="sd" style="display:none; visibility: hidden">
+          <img id="u337_img" class="img " src="images/index/sd_u21.svg"/>
+          <div id="u337_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片 ) -->
+        <div id="u338" class="ax_default image">
+          <img id="u338_img" class="img " src="images/index/u22.png"/>
+          <div id="u338_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div id="u330" style="display:none; visibility:hidden;"></div>
+
+      <!-- T (动态面板) -->
+      <div id="u339" class="ax_default ax_default_hidden" data-label="T" style="display:none; visibility: hidden">
+        <div id="u339_state0" class="panel_state" data-label="State1" style="">
+          <div id="u339_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u340" class="ax_default" data-left="0" data-top="0" data-width="50" data-height="50">
+
+              <!-- Unnamed (组合) -->
+              <div id="u341" class="ax_default" data-left="0" data-top="0" data-width="50" data-height="50">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u342" class="ax_default box_3">
+                  <div id="u342_div" class=""></div>
+                  <div id="u342_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (形状) -->
+                <div id="u343" class="ax_default _形状">
+                  <img id="u343_img" class="img " src="images/index/u45.svg"/>
+                  <div id="u343_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- T (动态面板) -->
+      <div id="u344" class="ax_default ax_default_hidden" data-label="T" style="display:none; visibility: hidden">
+        <div id="u344_state0" class="panel_state" data-label="State1" style="">
+          <div id="u344_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u345" class="ax_default" data-left="0" data-top="0" data-width="50" data-height="50">
+
+              <!-- Unnamed (组合) -->
+              <div id="u346" class="ax_default" data-left="0" data-top="0" data-width="50" data-height="50">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u347" class="ax_default box_3">
+                  <div id="u347_div" class=""></div>
+                  <div id="u347_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (形状) -->
+                <div id="u348" class="ax_default _形状">
+                  <img id="u348_img" class="img " src="images/index/u45.svg"/>
+                  <div id="u348_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u349" class="ax_default paragraph">
+        <div id="u349_div" class=""></div>
+        <div id="u349_text" class="text ">
+          <p><span>演示地址：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u350" class="ax_default _图片_1">
+        <img id="u350_img" class="img " src="images/部分作品集/u189.png"/>
+        <div id="u350_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u351" class="ax_default paragraph">
+        <div id="u351_div" class=""></div>
+        <div id="u351_text" class="text ">
+          <p><span style="text-decoration:underline ;">戳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u352" class="ax_default image">
+        <img id="u352_img" class="img " src="images/使用vue_elementui实现表格增删改查/u352.png"/>
+        <div id="u352_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>

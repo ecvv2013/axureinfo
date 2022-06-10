@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="166px" height="96px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip105">
+      <path d="M 13.5 101.5  C 12.945 101.5  12.5 101.055  12.5 100.5  L 12.5 13.5  C 12.5 12.945  12.945 12.5  13.5 12.5  L 170.5 12.5  C 171.055 12.5  171.5 12.945  171.5 13.5  L 171.5 100.5  C 171.5 101.055  171.055 101.5  170.5 101.5  L 13.5 101.5  " fill-rule="evenodd" />
+    </mask>
+    <filter x="9px" y="9px" width="166px" height="96px" filterUnits="userSpaceOnUse" id="filter106">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.333333333333333  0 0 0 0 0.333333333333333  0 0 0 0 0.333333333333333  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget107">
+      <path d="M 12 12  L 172 12  L 172 102  L 12 102  L 12 12  " fill-rule="nonzero" fill="#cccccc" stroke="none" mask="url(#clip105)" />
+      <path d="M 18 18  L 166 18  L 166 96  L 18 96  L 18 18  " fill-rule="nonzero" fill="#ffffff" stroke="none" mask="url(#clip105)" />
+      <path d="M 101.95 39  C 98.17 39  95.2 36.03  95.2 32.25  C 95.2 28.47  98.17 25.5  101.95 25.5  C 105.73 25.5  108.7 28.47  108.7 32.25  C 108.7 36.03  105.73 39  101.95 39  " fill-rule="nonzero" fill="#cccccc" stroke="none" mask="url(#clip105)" />
+      <path d="M 21 94  L 21 53.85  L 56.75 35.6  L 106.8 69.3625  L 135.4 46.55  L 164 69.3625  L 164 94  L 21 94  " fill-rule="nonzero" fill="#169bd5" stroke="none" mask="url(#clip105)" />
+      <path d="M 13 101.5  C 12.7225 101.5  12.5 101.2775  12.5 101  L 12.5 13  C 12.5 12.7225  12.7225 12.5  13 12.5  L 171 12.5  C 171.2775 12.5  171.5 12.7225  171.5 13  L 171.5 101  C 171.5 101.2775  171.2775 101.5  171 101.5  L 13 101.5  Z " stroke-width="1" stroke="#f2f2f2" fill="none" mask="url(#clip105)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -9 -9 )">
+    <use xlink:href="#widget107" filter="url(#filter106)" />
+    <use xlink:href="#widget107" />
+  </g>
+</svg>

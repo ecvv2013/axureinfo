@@ -1,0 +1,23 @@
+javascript:
+(function(){
+if (!window.Vue) {
+  let files = [
+    "https://unpkg.com/element-ui/lib/theme-chalk/index.css",
+    "https://unpkg.com/vue/dist/vue.js",
+    "https://unpkg.com/element-ui@2.15.6/lib/index.js"
+  ];
+  $.getScript('https://ax.minicg.com/yepnope.min.js',()=>{ yepnope({ load: files, complete: init }); });
+} else {
+  init();
+}
+function init() {
+  addNewElement('<el-button type="primary" icon="el-icon-search">搜索</el-button>', 'a[[LVAR1.x]][[LVAR1.y]][[LVAR1.width]]');
+}
+function addNewElement( html, id ) {
+  $('body').append(`<div id="${id}" style="position:absolute; top:[[LVAR1.y]]px; left:[[LVAR1.x]]px">${html}</div>`);
+  function data(){
+      new Vue().$mount('#'+id);
+  }
+  function data()
+}
+}());
